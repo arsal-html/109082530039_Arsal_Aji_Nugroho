@@ -13,21 +13,21 @@ func main() {
 
 var (
 satu, dua, tiga string
-temp string
+<br>temp string
 )
 
 fmt.Print("Masukan input string: ")
-fmt.Scanln(&satu)
-fmt.Print("Masukan input string: ")
-fmt.Scanln(&dua)
-fmt.Print("Masukan input string: ")
-fmt.Scanln(&tiga)
-fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
-temp = satu
-satu = dua
-dua = tiga
-tiga = temp
-fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
+<br>fmt.Scanln(&satu)
+<br>fmt.Print("Masukan input string: ")
+<br>fmt.Scanln(&dua)
+<br>fmt.Print("Masukan input string: ")
+<br>fmt.Scanln(&tiga)
+<br>fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
+<br>temp = satu
+<br>satu = dua
+<br>dua = tiga
+<br>tiga = temp
+<br>fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 }
 '''
 
@@ -35,3 +35,4 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 
 ##### Output
 ![Screenshot Output Unguided 1_1](https://github.com/arsal-html/109082530039_Arsal_Aji_Nugroho/ALPRO_2/modul_1_dan_2/soal1-PNG)
+[]
