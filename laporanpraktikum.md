@@ -3,7 +3,7 @@
 
 ### 1. [SOAL 1]
 #### Soal1.go
-'''
+
 package main
 
 import "fmt"
@@ -28,9 +28,10 @@ fmt.Print("Masukan input string: ")
 <br>tiga = temp
 <br>fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 }
-'''
+
 
 ### Output Unguided : 
 
 ##### Output
 ![Screenshot Output Unguided 1_1](soal-1.PNG)
+<br>[]
