@@ -33,5 +33,5 @@ fmt.Print("Masukan input string: ")
 ### Output Unguided : 
 
 ##### Output
-![Screenshot Output Unguided 1_1](soal-1.PNG)
+![Screenshot Output Unguided 1_1](gambar/soal-1.PNG)
 <br>[]
