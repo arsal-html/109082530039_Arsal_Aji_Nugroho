@@ -7,7 +7,7 @@ func main () {
 	
 
 	fmt.Print("Berat Parsel dalam gram : ")
-	fmt.Scan(&parsel)
+	fmt.Scan(&parsel) 
 	
 	total_berat = parsel / 1000
 	sisa_berat = parsel % 1000

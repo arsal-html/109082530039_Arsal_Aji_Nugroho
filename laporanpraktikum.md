@@ -1,8 +1,8 @@
-# <h1>Laporan Praktikum Modul1 - 2</h1>
+# <h1>Laporan Praktikum Modul 1 - 2</h1>
 <p align-"center">[Arsal Aji Ngroho] - [109082530039]</p>
 
 ### 1. [SOAl]
-#### temp.go
+#### Soal1.go
 
 '''go
 package main
@@ -34,3 +34,4 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 ### Output Unguided : 
 
 ##### Output
+![Screenshot Output Unguided 1_1](https://github.com/arsal-html/109082530039_Arsal_Aji_Nugroho/ALPRO_2/modul_1_dan_2/soal1-PNG)
