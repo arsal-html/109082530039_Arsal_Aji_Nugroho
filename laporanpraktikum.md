@@ -1,10 +1,9 @@
 # <h1>Laporan Praktikum Modul 1 - 2</h1>
 <p align-"center">[Arsal Aji Ngroho] - [109082530039]</p>
 
-### 1. [SOAl]
+### 1. [SOAL 1]
 #### Soal1.go
-
-'''go
+'''
 package main
 
 import "fmt"
