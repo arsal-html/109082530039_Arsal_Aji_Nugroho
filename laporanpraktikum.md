@@ -29,9 +29,7 @@
     fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
     }
 
-
-### Output Unguided : 
-
+ 
 ##### Output
 ![Screenshot Output Unguided 1_1](gambar/soal-1.PNG)
 <br>[Program meminta untuk memasukkan tiga string dengan Output awal satu, dua dan tiga kemudian masuk pada operasinya dimana ada temp untuk menyimpan variabel sementara(variabel satu), ini berfungsi agar saat print output variabel satu tidak hilang. setelah masuk ke operasinya, angka satu akan langsung berubah menjadi dua, kemudia angka dua menjadi tiga, lalu tiga menjadi satu. Dan hasil Output Akhirnya adalah dua, tiga, satu]
@@ -57,10 +55,11 @@
         }
 	fmt.Println(hasil)
     }
+
  
 ##### Output
 ![Screenshot Output Unguided 1_1](gambar/soal-2.PNG)
-<br>[Program meminta untuk memasukkan tiga string dengan Output awal satu, dua dan tiga kemudian masuk pada operasinya dimana ada temp untuk menyimpan variabel sementara(variabel satu), ini berfungsi agar saat print output variabel satu tidak hilang. setelah masuk ke operasinya, angka satu akan langsung berubah menjadi dua, kemudia angka dua menjadi tiga, lalu tiga menjadi satu. Dan hasil Output Akhirnya adalah dua, tiga, satu]
+<br>[program meminta kita memasukkan string berupa beberapa warna yaitu merah,kuning,hijau,ungu] kemudian masuk pada iterasi yang dimulai dari 1 hingga 5 kali perulangan. kemudian ada hasil yang nilai awalnay adalah true dan hasil pada IF bernilai false, ini berguna jika ada salah satu warna yang diinputkan tidak sama maka hasil/outputnya akan false. dan jika warna warna yang diinputkan benar maka hasilnya true
 
 ### 3. [Berat Parsel]
 #### Soal3.go
@@ -95,13 +94,20 @@
 	
 	
 	fmt.Println("Jadi total biaya : Rp.", biaya_kirim)
-
-
+    
     }
 
  
 ##### Output
 ![Screenshot Output Unguided 1_1](gambar/soal-3.PNG)
-<br>[Program meminta untuk memasukkan tiga string dengan Output awal satu, dua dan tiga kemudian masuk pada operasinya dimana ada temp untuk menyimpan variabel sementara(variabel satu), ini berfungsi agar saat print output variabel satu tidak hilang. setelah masuk ke operasinya, angka satu akan langsung berubah menjadi dua, kemudia angka dua menjadi tiga, lalu tiga menjadi satu. Dan hasil Output Akhirnya adalah dua, tiga, satu]
+<br>[Program diatas merupakan program yang bertujuan untuk menghitung biaya pengiriman parsel secara total. Dari code diatas diketahui :
+<br>-Berat parsel dalam satuan gram.
+<br>-Tiap kilogramnya dikenakan tarif 10.000 untuk jasa pengiriman.
+<br>-Jika sisa berat (modulus) = 500 gram maka akan dikenakan biaya kirim Rp. 5 / gram.
+<br>-Jika sisa berat (modulus) < 500 gram maka akan dikenakan biaya kirim Rp. 15 / gram.
+<br>-Jika sisa berat (modulus) > 500 gram dan beratnya > 10 kg, maka tidak dikenakan tarif pengiriman.
+Cara program berjalan :
+Jika kita input berat parsel 8500 (gram), Maka akan menjalankan kondisi if yang pertama dengan if = 500 (tidak kurang atau lebih dari 500 gram) lalu selanjutnya akan dihitung untuk biaya kirim dengan rumus biaya_kirim = (total_berat * 10000) + (sisa_berat * 5). Lalu program akan menghasilkan output biaya kirim sebesar 82500.
+Kondisi else If ke-2 dan 3 berlaku sama, hanya saja pada kondisi else if ke-3 tidak dikenakan biaya kirim jadi cukup : biaya_kirim = (total_berat * 10000)]
 
 
