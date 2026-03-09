@@ -34,5 +34,4 @@ fmt.Print("Masukan input string: ")
 ### Output Unguided : 
 
 ##### Output
-![Screenshot Output Unguided 1_1](https://github.com/arsal-html/109082530039_Arsal_Aji_Nugroho/ALPRO_2/modul_1_dan_2/soal-1.PNG)
-[]
+![Screenshot Output Unguided 1_1](soal-1.PNG)
