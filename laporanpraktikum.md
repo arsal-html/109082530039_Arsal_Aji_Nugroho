@@ -34,4 +34,27 @@ fmt.Print("Masukan input string: ")
 
 ##### Output
 ![Screenshot Output Unguided 1_1](gambar/soal-1.PNG)
-<br>[]
+<br>[Program meminta untuk memasukkan tiga string dengan Output awal satu, dua dan tiga kemudian masuk pada operasinya dimana ada temp untuk menyimpan variabel sementara(variabel satu), ini berfungsi agar saat print output variabel satu tidak hilang. setelah masuk ke operasinya, angka satu akan langsung berubah menjadi dua, kemudia angka dua menjadi tiga, lalu tiga menjadi satu. Dan hasil Output Akhirnya adalah dua, tiga, satu]
+
+### 2. [SOAL 2]
+#### Soal2.go
+
+package main
+
+<br> "fmt"
+
+<br>func main() {
+	<br>var a, b, c, d string
+	
+	hasil := true
+
+	for i := 1; i <= 5; i++ {
+		fmt.Print("percobaan ", i, ": ")
+		fmt.Scan(&a, &b, &c, &d)
+		if a != "merah" || b != "kuning" || c != "hijau" || d != "ungu" {
+			hasil = false
+		}
+	}
+	fmt.Println(hasil)
+}
+
