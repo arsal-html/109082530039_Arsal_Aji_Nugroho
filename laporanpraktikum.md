@@ -4,29 +4,29 @@
 ### 1. [SOAL 1]
 #### Soal1.go
 
-package main
+    package main
 
-import "fmt"
+		import "fmt"
 
-func main() {
+		func main() {
 
-var (
-satu, dua, tiga string
-<br>temp string
-)
+	var (
+	satu, dua, tiga string
+		temp string
+	)
 
-fmt.Print("Masukan input string: ")
-<br>fmt.Scanln(&satu)
-<br>fmt.Print("Masukan input string: ")
-<br>fmt.Scanln(&dua)
-<br>fmt.Print("Masukan input string: ")
-<br>fmt.Scanln(&tiga)
-<br>fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
-<br>temp = satu
-<br>satu = dua
-<br>dua = tiga
-<br>tiga = temp
-<br>fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
+	fmt.Print("Masukan input string: ")
+	fmt.Scanln(&satu)
+	fmt.Print("Masukan input string: ")
+	fmt.Scanln(&dua)
+	fmt.Print("Masukan input string: ")
+	fmt.Scanln(&tiga)
+		fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
+			temp = satu
+			satu = dua
+			dua = tiga
+			tiga = temp
+fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 }
 
 
@@ -39,12 +39,12 @@ fmt.Print("Masukan input string: ")
 ### 2. [SOAL 2]
 #### Soal2.go
 
-package main
+    package main
 
-<br> "fmt"
+    import "fmt"
 
-<br>func main() {
-	<br>var a, b, c, d string
+        func main() {
+	    var a, b, c, d string
 	
 	hasil := true
 
