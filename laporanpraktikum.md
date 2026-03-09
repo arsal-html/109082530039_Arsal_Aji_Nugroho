@@ -6,9 +6,9 @@
 
     package main
 
-		import "fmt"
+	import "fmt"
 
-		func main() {
+	func main() {
 
 	var (
 	satu, dua, tiga string
@@ -26,8 +26,8 @@
 			satu = dua
 			dua = tiga
 			tiga = temp
-fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
-}
+    fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
+    }
 
 
 ### Output Unguided : 
@@ -43,8 +43,8 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 
     import "fmt"
 
-        func main() {
-	    var a, b, c, d string
+    func main() {
+	var a, b, c, d string
 	
 	hasil := true
 
@@ -53,8 +53,8 @@ fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
 		fmt.Scan(&a, &b, &c, &d)
 		if a != "merah" || b != "kuning" || c != "hijau" || d != "ungu" {
 			hasil = false
-		}
-	}
+		    }	    
+        }
 	fmt.Println(hasil)
-}
+    }
 
