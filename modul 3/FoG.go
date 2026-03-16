@@ -18,10 +18,10 @@ func Hx(x int) int {
 }
 
 func main() {
-	var x, y, z int
-	fmt.Print("Masukan nilai x, y, z: ")
-	fmt.Scanln(&x,&y, &z)
-	fmt.Println("Fogoh = ", (Fx(Gx(Hx(x)))))
-	fmt.Println("Gohof = ", (Gx(Hx(Fx(y)))))
-	fmt.Println("Hofog = ", (Hx(Fx(Gx(z)))))
+	var a, b, c  int
+	fmt.Print("Masukan nilai a, b, c: ")
+	fmt.Scanln(&a,&b, &c)
+	fmt.Println("Fogoh = ", (Fx(Gx(Hx(a)))))
+	fmt.Println("Gohof = ", (Gx(Hx(Fx(b)))))
+	fmt.Println("Hofog = ", (Hx(Fx(Gx(c)))))
 }
