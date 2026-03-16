@@ -46,5 +46,5 @@
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](modul%203/gambar/permutasi.JPG)
+![Screenshot Output Unguided 1_1](gambar/permutasi.JPG)
 [penjelasan]
