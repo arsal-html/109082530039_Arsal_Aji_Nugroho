@@ -46,5 +46,5 @@
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/arsal-html/109082530039_Arsal_Aji_Nugroho/blob/main/modul_3/gambar/permutasi.JPG)
+![Screenshot Output Unguided 1_1](modul%203/gambar/permutasi.JPG)
 [penjelasan]
