@@ -88,7 +88,10 @@ func main() {
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](gambar/FoG.JPG)
-[]
+[HItung fogoh - Scan a lalu lalu Print a untuk menghitung fogoh, masuk ke func Hx misal x = 5, di dalam Hx 5 + 1 = 6 kemudian hasil dikembalikan ke Gx 6 - 2 = 4, kemudian hasil dari Gx dikembalikan ke Fx 4 * 4 = 16. Jadi hasil dari fogoh dengan x = 5 adalah 16.
+</br>Hitung gohof - Scan b lalu Print ab untuk menghitung gohof.Masuk ke func Fx misal x = 5, di Fx 5 * 5 = 25, kemudian dikembalikan k Hx 25 + 1 = 26,kemudian ke func Gx 26 - 2 = 24. Jadi hasil gohof dengan x = 5 adalah 24.
+</b>Hitung Hofog - Scan c lalu Print c, masuk ke func Gx midal x = 5, maka 5 - 2 = 3, hasil dari Gx dikembalikan ke Fx, 3 * 3 = 9, hasil ini dikembalikan ke Hx 9 + 1 = 10, jad hasil dari hofog adalah 10.
+</br>Hitungan berlaku dari belakang misal kita ingin mencari hofog, maka kita akan mencari fungsi g dulu,ke fungsi f lalu berajhir di fungsi h.]
 
 
 ### 3. [Lingkaran]
@@ -148,6 +151,9 @@ func main() {
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](gambar/lingkarang.JPG)
-[]
+[misal kita input untuk lingkaran 1 : 1 2 3 7 8 dan lingkaran 2 : 4 5 6 7 8
+</br>masuk pada hitungan lingkaran yang pertama, dengan radius 3, masuk ke perhitungan jarak menggunakan rumus math.Sqrt((1 - 7)*(1 - 7) + (2 - 8)*(2 - 8)) hasilnya adalah 8.485, hasil ini dikembalikan fungsi didalam untuk melihat nilai apakah hasil dari jarak lebih kecil dari r(radius), dan ternyata ini false.
+</br>Hiutng Lingkaran ke 2 dengan radius 6, gunakan rumus pada func jarak math.Sqrt((4 - 7)*(4 - 7) + (5 - 8)*(5 - 8)) hasilnya adalah 4.242 ini bernilai true karna hasil dari jarak lebih kecil dari radius hasil ini dikembalikan ke func didalam dan menghasilkan nilai true.
+<br/>Dari kedua hasil tadi masuk ke kondisi if-else-if dan mengecek nilainya satu persatu dan di temukan hasil yang benar yaitu pada lingkaran ke-2(else-if dalam2) kemudian hasil string akan dicetak "Titik didalam lingkaran 2"]
 
 
