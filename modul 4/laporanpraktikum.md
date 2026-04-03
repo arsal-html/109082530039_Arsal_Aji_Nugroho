@@ -54,7 +54,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![test](./gambar/gema.jpg)
+![test](modul 4/gambar/gema.jpg)
 [Program ini adalah program Go untuk menghitung permutasi dan kombinasi dari dua bilangan yang diinputkan pengguna.
 </br>Fungsi faktorial digunakan untuk menghitung n! dengan perulangan, dan menggunakan pointer agar hasil langsung disimpan ke variabel tanpa return(karna pointer berguna untuk menyimpan nilai sementara jadi tidak perlu mengembalikan nilai ke func lain).
 </br>Fungsi permutasi (n!/(n−r)!) dan kombinasi (n!/(r!(n−r)!)) mengambil nilai dari func faktorial karna menggunakan pointer tadi jadi langsung masuk ke func permutasi dan kombinasi.
