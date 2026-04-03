@@ -117,7 +117,7 @@ Di fungsi hitungSkor, program membaca waktu dari 8 soal. Jika waktu ≤ 300, soa
 </br>if soal > jmlhsoal || (soal == jmlhsoal && skor < jmlhskor) 
             jmlhsoal = soal
             jmlhskor = skor
-            pemenang = nama 4
+            pemenang = nama 
 			
 </br>Program ini memakai pointer supaya nilai soal dan skor bisa langsung berubah tanpa return.
 Setelah itu, program membandingkan hasil setiap peserta. Pemenang adalah yang soalnya paling banyak, dan pengerjaan yang cepat.]
