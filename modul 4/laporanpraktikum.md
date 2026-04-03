@@ -82,7 +82,7 @@ func main() {
 		}
 	}
 	
-	func main() {
+	func main() {nnn
     var nama, pemenang string
     var soal, skor, jmlhsoal, jmlhskor int
     jmlhskor = 999999
