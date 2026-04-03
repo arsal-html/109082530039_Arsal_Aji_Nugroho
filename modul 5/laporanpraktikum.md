@@ -43,6 +43,7 @@ func fibonacci(n int) int {
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](gambar/fibonacci.JPG)
+
 [Program ini adalah program Go yang menggunakan konsep rekursif yang digunakan untuk menampilkan deret Fibonacci Sn.
 
 Pada fungsi main, program meminta pengguna memasukkan nilai n. Setelah itu, program menampilkan dua baris, yaitu baris n: yang berisi urutan angka dari 0 sampai n menggunakan kondisi looping pertama dengan keluaran i, dan baris Sn: yang berisi nilai Fibonacci dari setiap angka tersebut menggunakan looping kedua yang mengambil nilai fibonacci(i).
@@ -81,7 +82,9 @@ func polabintang(n int) {
 ### Output Unguided :
 
 ##### Output 
+
 ![Screenshot Output Unguided 1_1](gambar/polabintang.jpg)
+
 [Di fungsi main, program menyuruh user menginput n, lalu memanggil func polabintang(n).
 
 Fungsi polabintang menggunakan rekursi. Jika n <= 0, program berhenti. Jika tidak, fungsi akan memanggil dirinya sendiri dengan n-1, baru kemudian mencetak bintang.
@@ -134,7 +137,11 @@ func polabintang(n int) {
 ### Output Unguided :
 
 ##### Output 
+<<<<<<< HEAD
 ![Screenshot Output Unguided 1_1](gambar/faktorbil.jpg)
+=======
+![Screenshot Output Unguided 1_1]()
+>>>>>>> db531b0d05154afd06d204cd19b082ed1a754685
 [Di fungsi main, program membaca nilai n, lalu memanggil func faktorbil mulai dari angka 1.
 Fungsi faktorbil menggunakan rekursi untuk mengecek angka dari 1 sampai n. Jika suatu angka bisa membagi n (n % i == 0)(if kedua), maka angka tersebut dicetak sebagai faktor.
 Proses berhenti saat i lebih dari n(if pertama).
