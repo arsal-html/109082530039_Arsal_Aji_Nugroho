@@ -54,7 +54,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](gambar/perkombi.jpg)
+![Screenshot Output Unguided 1 1](gambar/perkombi.jpg)
 [Program ini adalah program Go untuk menghitung permutasi dan kombinasi dari dua bilangan yang diinputkan pengguna.
 </br>Fungsi faktorial digunakan untuk menghitung n! dengan perulangan, dan menggunakan pointer agar hasil langsung disimpan ke variabel tanpa return(karna pointer berguna untuk menyimpan nilai sementara jadi tidak perlu mengembalikan nilai ke func lain).
 </br>Fungsi permutasi (n!/(n−r)!) dan kombinasi (n!/(r!(n−r)!)) mengambil nilai dari func faktorial karna menggunakan pointer tadi jadi langsung masuk ke func permutasi dan kombinasi.
@@ -111,7 +111,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](gambar/gema.jpg)
+![Screenshot Output Unguided 1 1](gambar/gema.jpg)
 [Di fungsi main, program membaca nama peserta satu per satu sampai memasukkan "selesai" agar program berhenti. Untuk setiap peserta, program memanggil fungsi hitungSkor dengan i <= 8 karna ada 8 soal yang diberikan dan waktu <= 300 ini juga karna diberikan waktu 5 jam.
 Di fungsi hitungSkor, program membaca waktu dari 8 soal. Jika waktu ≤ 300, soal dihitung benar dan akan ditambahkan dengan waktu. Jumlah soal disimpan di soal dan total waktu disimpan di skor. semenatar nilai nama pertama disimpan pada  
 </br>if soal > jmlhsoal || (soal == jmlhsoal && skor < jmlhskor) 
