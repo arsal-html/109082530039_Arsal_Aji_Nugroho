@@ -1,21 +1,25 @@
 package main
-
 import "fmt"
 
 func main() {
 	var n int
-	 fmt.Scan(&n)
-	polabintang(n)
+	fmt.Scan(&n)
+	pola(n)
 }
 
-func polabintang(n int) {
-	if n <= 0 {
+func cetakBintang(n int) {
+    if n == 0 { 
 		return 
-		}
-	polabintang(n - 1)
-
-		for i := 0; i < n; i++ {
-		fmt.Print("* ")
-		}
-	fmt.Println()
 	}
+    fmt.Print("*")
+    cetakBintang(n - 1)
+}
+
+func pola(n int) {
+    if n == 0 { 
+		return 
+	}
+    pola(n - 1)
+    cetakBintang(n)
+    fmt.Println()
+}
