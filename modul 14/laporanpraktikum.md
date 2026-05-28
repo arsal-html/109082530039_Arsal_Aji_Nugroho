@@ -172,7 +172,7 @@ func main() {
 </br>Genap Descending: Loop dimulai dari menentukan (j = m-1) selanjutnya (j >= 0). jika a[j] % 2 == 0 (genap), langsung dicetak. Karena array sudah ascending dan kita baca dari kanan, bilangan genap yang keluar otomatis terurut mengecil.]
 
 
-### 3. [Balita]
+### 3. [Median]
 #### Buatlah program median yang mencetak nilai median terhadap seluruh data yang sudah terbaca, jika data yang dibaca saat itu adalah 0. 
 #### </br> Masukan berbentuk rangkaian bilangan bulat. Masukan tidak akan berisi lebih dari 1000000 data, tidak termasuk bilangan 0. Data 0 merupakan tanda bahwa median harus dicetak, tidak termasuk data yang dicari mediannya. Data masukan diakhiri dengan bilangan bulat -5313.
 #### </br> Keluaran adalah median yang diminta, satu data per baris.
