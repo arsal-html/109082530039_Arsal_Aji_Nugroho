@@ -1,4 +1,4 @@
-# <h1 align="center"> Laporan Praktikum Modul 10 </h1>
+# <h1 align="center"> Laporan Praktikum Modul 14 selection sort </h1>
 <p align="center">  [Arsal Aji Nugroho] - [109082530039] </p>
 
 ## Unguided 
